@@ -1,0 +1,11 @@
+Model Information:
+* title:	A Portrait from the Future
+* source:	https://sketchfab.com/3d-models/a-portrait-from-the-future-633c5b052b284d8e849da102a561becf
+* author:	Daniele De Filippis (https://sketchfab.com/danieledefilippis)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "A Portrait from the Future" (https://sketchfab.com/3d-models/a-portrait-from-the-future-633c5b052b284d8e849da102a561becf) by Daniele De Filippis (https://sketchfab.com/danieledefilippis) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
