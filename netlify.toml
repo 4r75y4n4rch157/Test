@@ -9,4 +9,4 @@
   # Define which paths this specific [[headers]] block will cover.
   for = "/*"
     [headers.values]
-    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Origin = "https://github.com/4r75y4n4rch157/Test/tree/master/Assets/"
