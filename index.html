@@ -77,6 +77,37 @@
                 mesh.rotation.y = time / 1000;
                 renderer.render( scene, camera );
             }
+
+            function threeMess(){
+            const loader = new THREE.ObjectLoader();
+            loader.load(
+                // resource URL
+                "https://github.com/4r75y4n4rch157/Test/tree/master/Assets/a_portrait_from_the_future",
+
+                // onLoad callback
+                // Here the loaded data is assumed to be an object
+                function ( obj ) {
+                    // Add the loaded object to the scene
+                    scene.add( obj );
+                },
+
+                // onProgress callback
+                function ( xhr ) {
+                    console.log( (xhr.loaded / xhr.total * 100) + '% loaded' );
+                },
+
+                // onError callback
+                function ( err ) {
+                    console.error( 'An error happened' );
+                }
+            );
+            }
+
+            /* Alternatively, to parse a previously loaded JSON structure
+            const object = loader.parse( a_json_object );
+
+            scene.add( object );*/
+
          </script>
 	</body>
 </html>
