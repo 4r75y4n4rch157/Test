@@ -80,6 +80,18 @@
             }
 
             function threeMess(){
+                const invocation = new XMLHttpRequest();
+                const url = 'https://github.com/4r75y4n4rch157/Test/*';
+
+                function callOtherDomain() {
+                if (invocation) {
+                    invocation.open('GET', url, true);
+                    invocation.withCredentials = true;
+                    invocation.onreadystatechange = handler;
+                    invocation.send();
+                }
+                }
+
             const loader = new THREE.ObjectLoader();
             loader.load(
                 // resource URL
